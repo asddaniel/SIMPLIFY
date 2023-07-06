@@ -10,3 +10,6 @@ Route::get("/", function(){
 Route::get("/acid/{id}", function($id){
     echo 'routing numero '.$id;   
 });
+Route::get("/daniel", function (){
+    echo 'chemin';
+});
